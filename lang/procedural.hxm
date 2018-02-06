@@ -1,0 +1,10 @@
+fun x = {
+	val off = currentOffset()
+	val x: u2
+	match (x) {
+		1: {move(off); A},
+		2: {move(off); B}
+	}
+}
+
+// 처음엔 이렇게까진 하지 말고..
